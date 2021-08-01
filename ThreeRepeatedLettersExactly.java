@@ -42,7 +42,7 @@ public class ThreeRepeatedLettersExactly {
         ThreeRepeatedLettersExactly sol = new ThreeRepeatedLettersExactly();
         int A = 1;
         int B = 4;
-        sol.solution(5, 3);
+        sol.solution(34, 34);
     }
 
 }
