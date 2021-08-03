@@ -4,20 +4,18 @@ public class MinimumFrogJump {
         // write your code in Java SE 8
         int count = 0;
         int result = 0;
-        int sum = 0;
+        int sum = X;
+        
 
-        while (sum < Y) {
-            sum = sum + D;
-            count++;
+        if ((Y - X) % D == 0) {
+            return (Y - X) / D;
         }
-
-        return count;
-
-    }
+        return((Y - X) / D )+ 1;
+       }
 
     public static void main(String[] args) {
         MinimumFrogJump sol = new MinimumFrogJump();
-        sol.solution(3555555, 399999999, 30);
+        sol.solution(2, 8, 7);
     }
 
 }
